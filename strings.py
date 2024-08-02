@@ -7,6 +7,12 @@ cadenaTextos = cadenaTextos.lower()
 print(cadenaTextos)
 cadenaTextos = cadenaTextos.capitalize()
 print(cadenaTextos)
+cadenaTextos = cadenaTextos.title()
+print(cadenaTextos)
+start = cadenaTextos.startswith("Esto")
+print(start)
+end = cadenaTextos.endswith("texto")
+print(end)
 
 '''Array de caracteres'''
 caracter = cadenaTextos[3] # caracter de la posicion 3
