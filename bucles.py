@@ -14,3 +14,12 @@ array = []
 for i in range(10):
     array.append(i)
 print(array)
+
+'''For con listas'''
+print("")
+print("For con listas")
+array = ["Node" , "React" , "Vue" , "Angular"]
+x = 1
+for i in array:
+    print(f'{x}. {i}')
+    x+= 1
