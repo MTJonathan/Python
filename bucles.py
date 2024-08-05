@@ -23,3 +23,10 @@ x = 1
 for i in array:
     print(f'{x}. {i}')
     x+= 1
+    
+'''For con diccionarios'''
+print("")
+print("For con diccionarios")
+diccionario = {"Nombre": "Jonathan", "Apellido": "Matias", "Edad": 18, "Sexo": "Masculino"}
+for i in diccionario:
+    print(diccionario[i])
